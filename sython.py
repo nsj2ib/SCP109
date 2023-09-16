@@ -50,7 +50,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5795394157,
+    5901085224,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -87,12 +87,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO Sid
+**☆ 𝑻𝑺 »𝐂𝐆𝐄𝐊𝐄𝐑 𝐌𝐈𝐂𝐇𝐀𝐄𝑳»࿅ 𓆙
 ☆ VERSION : 1.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE sid : @ICTS_930**
+☆ SOURCE 𝐌𝐈𝐂𝐇𝐀𝐄𝑳 : @L_URD**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -122,7 +122,7 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5795394157
+ownerhson_id = 5901085224
 @sython.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -332,7 +332,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@ICTS_930"))
+        await sython(JoinChannelRequest("@L_URD"))
     except BaseException:
         pass
  
@@ -343,7 +343,7 @@ GCAST_BLACKLIST = [
 ]
 
 DEVS = [
-    5795394157,
+    5901085224,
 ]
 
 def calc(num1, num2, fun):
@@ -499,7 +499,7 @@ async def _(event):
       await event.reply("""السـورس يعمـل | 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : @mmaahg
+- المطور : @L_URD
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
@@ -507,7 +507,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""Sid OWNER : @mmaahg"""
+      await event.reply("""المطور : @L_URD"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
@@ -630,5 +630,5 @@ async def _(event):
 
 
 
-print("- sid Userbot Running ..")
+print("-  Userbot Running ..")
 sython.run_until_disconnected()
